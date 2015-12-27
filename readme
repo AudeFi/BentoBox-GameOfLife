@@ -1,0 +1,44 @@
+School project - 2015
+John Conway's Game Of Life - Bento Box Version
+
+
+
+#DESCRIPTION
+This is a school project around the theme of Conway's Game Of Life.
+
+The Game of Life, also known simply as Life, is a cellular automaton. The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
+
+The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
+- Any live cell with fewer than two live neighbours dies, as if caused by under-population.
+- Any live cell with two or three live neighbours lives on to the next generation.
+- Any live cell with more than three live neighbours dies, as if by over-population.
+- Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+
+We decided to create our own version of the Game Of Life with the theme of food, and more specifically bento food and add severals game modes to allow the player to interact with the game.
+This website was coded in HTML5, CSS3 and Javascript
+
+
+
+#FEATURES
+
+The game have three different game mode: 
+- The original one. You cannot do anything except choose the speed of the game. Cells appears and disappears in function of the Conway's initial state.
+- The Glouton Game: You have to fill the stomach of Totoro the faster you can. But be carefull because the cells keep moving depending on the initial state
+- The Hibernation Game: You have 45 secondes to eat the most cells as you can ! 
+
+Our website provides others features such as highscores for each game, the possibility to choose your type of food (Sushis and Makis / Biscuits and Cakes / Candies / Fruits) and you can pause and play the game when you want.
+
+
+
+#INSPIRATION
+The universe of Totoro and Stitch
+
+
+
+#INSTALATION
+No instalation needed
+
+
+
+#AUTHORS
+Raphaëlle LIMOGES - Alexandra COSSID - Vanessa CHADDOUK - Aude FICHEUX
