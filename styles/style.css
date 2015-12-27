@@ -1,0 +1,328 @@
+@font-face{font-family: "Myanmar Sangam MN"; src: url(../font/Myanmar_Sangam_MN.ttf)}
+
+#div3
+{
+    background-color:transparent;
+    /*position: relative;*/
+    position: absolute;
+    z-index: -2;
+    height: 500px;
+    width: 130px;
+    margin-top: 170px;
+    margin-left: 35px;
+    padding-top: 45px;  
+    border-radius: 100px;
+}    
+
+#jauge
+{
+    width: 130px;
+    background-color:#ea882e;
+    display: block;
+    position: absolute;
+    bottom:0;
+}
+
+#jaugeimg
+{   position: absolute;
+    /*height: 675px;*/
+    height: 611px;
+    /*padding-top: 45px;*/
+    padding-top: 105px;
+    padding-left: 20px;
+}
+
+
+body
+{   font-family: "Myanmar Sangam MN";
+    width: vw;
+    height: vh;
+    overflow: scroll;
+}
+
+#formulaire
+{   float: right;
+    width: 200px;
+    height: 713px;
+    background: #242424;
+    color: white;
+    padding: 18px;
+    margin-right: -8px;
+    margin-top: -69px;}
+
+fieldset
+{
+    border: none;}
+
+.container
+{
+    background-color: #FFE;
+    padding: 8px;
+    font-size: 25px;}
+
+form div
+{   background-color: #2d2d2d;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: normal;}
+
+#chrono
+{   border: solid black;
+    position: absolute;
+    font-size: 30px;
+    padding: 10px 15px;
+    margin-left: 210px;
+    margin-top: 10px}
+
+div h1
+{   margin: auto;
+    font-weight: lighter;
+    font-size: 70px;
+    padding-left: 380px;
+    height: 60px;}
+
+
+
+fieldset ul
+{
+    list-style: none;}
+
+#aleatoire
+{   font-size: 15px}
+
+#sushiBox
+{   width: 130px;
+    padding-left: 10px;
+    margin:auto;}
+
+#gateauBox
+{   width: 130px;
+    padding-left: 10px}
+
+#bonbonBox
+{   width: 130px;
+    padding-left: 10px;
+}
+
+#fruitBox
+{   width: 130px;
+    padding-left: 10px;
+}
+
+.radio {
+    -webkit-appearance: none;
+    background-color: #2d2d2d;
+    border: 0px solid #cacece;
+    padding: 8px;
+    border-radius: 0%;
+    display: inline-block;
+    position: relative;}
+
+
+.radio:checked{
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 0px solid #adb8c0;}
+
+input[type=checkbox] {
+    -webkit-appearance: none;
+    background-color: #2d2d2d;
+    border: 0px solid #cacece;
+    padding: 6px;
+    border-radius: 0%;
+    display: inline-block;
+    position: relative;
+    margin-left: 20px}
+
+
+input[type=checkbox]:checked{
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 0px solid #adb8c0;}
+
+input[type=range]
+{   border-radius: 3px;
+    margin-left: 20px;
+    margin-top: 15px}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: #2d2d2d;
+  
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -7px
+}
+
+
+#butStart
+{   /*background-color: transparent;*/
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding: 15px 48px;
+    margin: 5px;
+    margin-top: 18px;
+    font-size: 20px}
+
+#butPause
+{   /*background-color: transparent;*/
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding: 10px;
+    margin: 5px;
+    margin-right: 6px;
+    font-size: 15px}
+
+#butReset
+{   /*background-color: transparent;*/
+    border: 2px solid #FFF;
+    color: #FFF;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px}
+
+
+/* ------------- GRILLE --------------*/
+
+table
+{
+    margin-left: 210px;
+    margin-top: 35px;
+    background-color: #2D2D2D;
+    border-style: none;
+    width: 866px;
+}
+
+td
+{
+    border: 1px solid #2D2D2D;
+    height: 18px;
+    width: 18px;
+    /*border-radius: 20%;*/
+}
+
+
+.on1
+{   background-color: #242424;}
+
+.off
+{   background-color: #6E7372;}
+
+input
+{   outline-style: none;}
+
+
+
+
+.fenetrevisible
+{   background-color: rgba(255,255,255,0.8);
+    position: relative;
+    width: 866px;
+    height: 626px;
+    margin-left: 210px;
+    margin-top: 35px;
+    top: -661px}
+
+.fenetreinvisible
+{   background-color: red;
+    position: relative;
+    display: none;
+    width: 866px;
+    height: 626px;
+    margin-left: 210px;
+    margin-top: 35px;
+    top: -661px}
+
+#fenetreHighscore
+{   border: solid black;
+    position: absolute;
+    font-size: 22px;
+    width: 200px;
+    padding: 14.5px 30px;
+    margin-left: 810px;
+    margin-top: 11px;
+    font-weight: bold;}
+
+#info
+{
+    margin: auto;
+    font-size: 60px;
+    color:#ea882e;
+    text-align: center;
+    padding-top:220px;
+    height: 120px;
+    font-weight: middle;
+}
+
+#indiquescore
+{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#highscore
+{   text-align: center;
+    font-size: 25px
+}
+
+
+
+/* Class = MORT */
+.mort
+{
+    background-color: #2d2d2d;
+}
+
+
+
+
+
+/* ------------- COULEURS --------------*/
+
+/* Class = VIVANT */
+
+/*Palette cookie */
+.vivant0{background: url("../images/cookie.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant1{background: url("../images/donut.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant2{background: url("../images/citron-tarte.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant3{background: url("../images/tarte.png"); background-repeat: no-repeat; background-size: 18px;}
+
+/*Palette bonbon */
+.vivant4{background: url("../images/licorice.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant5{background: url("../images/sucette.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant6{background: url("../images/fleur.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant7{background: url("../images/pasteque.png"); background-repeat: no-repeat; background-size: 18px;}
+
+/*Palette sushi*/
+.vivant8{background: url("../images/maki.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant9{background: url("../images/onigari.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant10{background: url("../images/sushi.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant11{background: url("../images/rice.png"); background-repeat: no-repeat; background-size: 18px;}
+
+/*Palette fruit*/
+.vivant12{background: url("../images/orange.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant13{background: url("../images/pomme.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant14{background: url("../images/poire.png"); background-repeat: no-repeat; background-size: 18px;}
+.vivant15{background: url("../images/orange.png"); background-repeat: no-repeat; background-size: 18px;}
+
+
+
+
+
+
+
+

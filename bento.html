@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Jeu De La Vie</title>
+        <link rel="stylesheet" href="styles/style.css" >
+    </head>
+
+    <body>
+
+        <!--Ghibli Graphics--><style type="text/css">body, a, a:hover {cursor:url(http://imageshack.us/a/img837/4770/ljyo.png), auto;}</style><!--Ghibli Graphics-->
+        
+        <div id="chrono"></div>
+        <p id="fenetreHighscore"> </p>
+        <img id="jaugeimg" src="images/jauge.png">
+        <div id="div3">
+            <span id="jauge"></span>
+        </div>
+        
+
+        <div id="container">
+            <h1> BENTO BOX </h1>
+            
+            <form method="post" action="index.html" id="formulaire">
+		
+                <fieldset>
+                    <p>
+                        <div> MODE DE JEU </div>
+                        <span> 
+                        <input class="radio" type="radio" name="typejeu" id="classique" value="0" onchange="getTypeJeu(this.value)" checked/>
+                        <label for="classique"> CLASSIQUE </label> </span>
+                               <p>
+                        <input type="checkbox" name="dispo" id="alea" checked/> 
+                        <label id="aleatoire" for ="alea"> Aleatoire </label>
+                        <input id="curseur" type="range" min="10" max="2000" step="1" value="1000" onchange="getVitesse(this.value);"/>
+                            </p>
+                            <p> 
+                        <input class="radio" type="radio" name="typejeu" id="score" value="1" onchange="getTypeJeu(this.value)"/>
+                        <label for="score"> GLOUTON GAME </label> </p>
+                        <p> 
+                        <input class="radio" type="radio" name="typejeu" id="temps" value="2" onchange="getTypeJeu(this.value)"/>
+                        <label for="temps"> HIBERNATION </label> </p>
+                        
+                    </p>
+                    <p>
+                       <div> THEMES </div>
+                            <p><input class="radio" type="radio" name="palette" id="sushi" value="8" onchange="getCouleur(this.value);" checked/>   
+                                <label for="sushi"> <img id="sushiBox" src="images/sushiBox.jpg"> </label></p>
+                            <p><input class="radio" type="radio" name="palette" id="cookie" value="0" onchange="getCouleur(this.value);"/>
+                                <label for="cookie"> <img id="gateauBox" src="images/gateauBox.jpg"> </label></p>
+                            <p><input class="radio" type="radio" name="palette" id="bonbon" value="4" onchange="getCouleur(this.value);"/>   
+                                <label for="bonbon"> <img id="bonbonBox" src="images/bonbonBox.jpg"> </label></p>
+                            <p><input class="radio" type="radio" name="palette" id="fruit" value="12" onchange="getCouleur(this.value);"/>   
+                                <label for="fruit"> <img id="fruitBox" src="images/boite-fruit.png"> </label></p>
+                    </p>
+                    <input type="button" id="butStart" value="START" class="on1" onclick="start()"/>
+                    <input type="button" id="butPause" value="PAUSE" class="on1" onclick="pause()"/>
+                    <input type="button" id="butReset"value="RESET" class="on1" onclick="reset1()"/>
+
+                </fieldset>
+
+            </form>
+     
+            <div id="grille">
+                
+            </div>
+            
+            <div id="fenetrePause">
+                
+                <p id="info"> </p>
+                <p id="indiquescore"> </p>
+                <p id="highscore"> </p>
+                
+             </div>
+            
+        
+        </div>
+        
+    
+    </body> 
+
+    <script src="script/main.js" type="text/javascript"> </script>
+
+</html>

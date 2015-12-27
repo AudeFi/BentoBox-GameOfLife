@@ -1,0 +1,24 @@
+#totoro
+{
+    height: 200px;
+}
+
+body
+{
+    background-image: url(../images/tuto2.png);
+    background-size: 100%s;
+    /*position: absolute;
+    bottom: auto;
+    left: -1000px;*/
+}
+
+a
+{
+    position: absolute; 
+    background-color: transparent;
+    color: transparent;
+    top: 665px;
+    left: 820px;
+    width: 135px;
+    height: 50px;
+}
